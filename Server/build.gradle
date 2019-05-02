@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'junit:junit:4.12'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation project(':shared')
+    implementation files('/Users/NatetheWizard/Documents/School/Third year/CS 240/Family Map STUFF/familymapserver/jars/sqlite-jdbc-3.7.2.jar')
+    implementation files('/Users/NatetheWizard/Documents/School/Third year/CS 240/Family Map STUFF/familymapserver/jars/json-20160212.jar')
+    implementation files('/Users/NatetheWizard/Documents/School/Third year/CS 240/Family Map STUFF/familymapserver/jars/gson-2.6.2.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

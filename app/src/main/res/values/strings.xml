@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Family Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="default_host">10.0.2.2</string>
+    <string name="default_port">8080</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="server_host_number">Server Host:</string>
+    <string name="server_port_number">Server Port:</string>
+    <string name="main_activity_name">Family Map</string>
+    <string name="host_number_placeholder">Enter host number here</string>
+    <string name="username">User Name: </string>
+    <string name="password">Password: </string>
+    <string name="first_name">First Name: </string>
+    <string name="last_name">Last Name: </string>
+    <string name="email_address">Email: </string>
+    <string name="gender">Gender: </string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="GOOGLE_KEY">AIzaSyBzOWnjWL61efU1yBtBF2rQEREB000ysUQ</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="map_welcome">Click on a marker to see event details</string>
+    <string name="search_activity">Search activity</string>
+    <string name="filter_activity">Filter activity</string>
+    <string name="settings_activity">Settings activity</string>
+    <string name="search">Search</string>
+    <string name="marker_description">Marker for default event</string>
+    <string name="person_first_name">FIRST NAME</string>
+    <string name="person_last_name">LAST NAME</string>
+    <string name="person_gender">GENDER</string>
+    <string name="events">Click to Display Life Events</string>
+    <string name="family">Click to Display Family Members</string>
+    <string name="fathers_side">Father\'s Side</string>
+    <string name="filter_father">FILTER BY FATHER\'S SIDE OF THE FAMILY</string>
+    <string name="mothers_side">Mother\'s Side</string>
+    <string name="filter_mother">FILTER BY MOTHER\'S SIDE OF THE FAMILY</string>
+    <string name="male_events">Male Events</string>
+    <string name="female_events">Female Events</string>
+    <string name="filter_based_on_gender">FILTER EVENTS BASED ON GENDER</string>
+    <string name="life_story">Life Story Lines</string>
+    <string name="show_life_story">SHOW LIFE STORY LINES</string>
+    <string name="family_tree">Family Tree Lines</string>
+    <string name="show_family_tree">SHOW TREE LINES</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="fshow_spouse_lines">SHOW SPOUSE LINES</string>
+    <string name="map_type">Map Type</string>
+    <string name="map_background">BACKGROUND DISPLAY ON MAP</string>
+    <string name="data_resync">Re-sync Data</string>
+    <string name="from_family_map">FROM FAMILY MAP SERVICE</string>
+    <string name="logout">Logout</string>
+    <string name="return_to_login">RETURNS TO LOGIN SCREEN</string>
+
+    <string-array name="map_types">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+
+</resources>

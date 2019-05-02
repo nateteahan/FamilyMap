@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/life_lines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/life_story"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/show_life_story"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/family_tree"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/family_tree"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/show_family_tree"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="6dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/spouse"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/spouse_lines"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/fshow_spouse_lines"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="6dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/map_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/person_acvitity_linLayout">
+
+        <TextView
+            android:id="@+id/type_of_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="260dp"
+            android:textSize="20sp"
+            android:text="@string/map_type"
+            android:background="@color/person_acvitity_linLayout"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/type_of_map">
+
+            </Spinner>
+
+        <TextView
+            android:id="@+id/background_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type_of_map"
+            android:textSize="12sp"
+            android:text="@string/map_background"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_below="@id/background_map"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="6dp"
+            android:background="@android:color/darker_gray"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/data_sync"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/data_resync"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/from_family_map"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="6dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/logout_select"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/logout"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/return_to_login"
+            android:background="@color/person_acvitity_linLayout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingBottom="6dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

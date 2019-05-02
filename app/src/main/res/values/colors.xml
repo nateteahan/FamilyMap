@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="male_icon">#BFE6BA</color>
+    <color name="female_icon">#D3959B</color>
+    <color name="event_icon">#324E95</color>
+    <color name="person_acvitity_linLayout">#EFF0F1</color>
+</resources>
